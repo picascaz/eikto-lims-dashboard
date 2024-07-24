@@ -1,0 +1,373 @@
+.middle-top {
+  grid-area: middle-top;
+  border-width: 0.1vw;
+  border-style: solid;
+  position: relative;
+  border-color: #3c9de41a;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(to left, #3586d2, #3586d2) left top no-repeat,
+    linear-gradient(to bottom, #3586d2, #3586d2) left top no-repeat,
+    linear-gradient(to left, #3586d2, #3586d2) right top no-repeat,
+    linear-gradient(to bottom, #3586d2, #3586d2) right top no-repeat,
+    linear-gradient(to left, #3586d2, #3586d2) left bottom no-repeat,
+    linear-gradient(to bottom, #3586d2, #3586d2) left bottom no-repeat,
+    linear-gradient(to left, #3586d2, #3586d2) right bottom no-repeat,
+    linear-gradient(to left, #3586d2, #3586d2) right bottom no-repeat;
+  background-size: 0.1vw 2vw, 2vw 0.1vw, 0.1vw 2vw, 2vw 0.1vw;
+  background-color: #040b368c;
+  flex-direction: row;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-top: 0.5vw;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-column-2 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5vw;
+  margin-top: 0.5vw;
+}
+
+.info-title {
+  font-size: 1vw;
+  font-family: "YouSheBiaoTiHei-2";
+}
+
+.info-number {
+  font-size: 0.7vw;
+  font-family: "Poppins-ExtraBoldItalic_zitidi";
+  color: #80fefa;
+}
+
+.info-unit {
+  font-size: 0.5vw;
+  font-family: "Literary-Black";
+  color: #f4f2f1;
+}
+
+.echarts-content {
+  width: 40vw;
+  height: 100%;
+}
+
+.echarts {
+  width: 100%;
+  height: 100%;
+}
+
+.left-top-1 {
+  grid-area: left-top-1;
+  border-width: 0.1vw;
+  border-style: solid;
+  position: relative;
+  border-color: #3c9de41a;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1vw;
+  font-size: 1.5vw;
+  background: linear-gradient(to left, #3586d2, #3586d2) left top no-repeat,
+    linear-gradient(to bottom, #3586d2, #3586d2) left top no-repeat,
+    linear-gradient(to left, #3586d2, #3586d2) right top no-repeat,
+    linear-gradient(to bottom, #3586d2, #3586d2) right top no-repeat,
+    linear-gradient(to left, #3586d2, #3586d2) left bottom no-repeat,
+    linear-gradient(to bottom, #3586d2, #3586d2) left bottom no-repeat,
+    linear-gradient(to left, #3586d2, #3586d2) right bottom no-repeat,
+    linear-gradient(to left, #3586d2, #3586d2) right bottom no-repeat;
+  background-size: 0.1vw 2vw, 2vw 0.1vw, 0.1vw 2vw, 2vw 0.1vw;
+  background-color: #040b368c;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  top: 2vh;
+  left: 0.7vw;
+}
+
+.title-box-1 {
+  width: 0.2vw;
+  height: 1vh;
+  background-color: #052c4e;
+  border-right: 2rem;
+}
+
+.title-box-2 {
+  width: 0.2vw;
+  height: 1.5vh;
+  background-color: #064257;
+  border-right: 2rem;
+  margin-left: 0.1vw;
+  margin-right: 0.1vw;
+}
+
+.title-box-3 {
+  width: 0.2vw;
+  height: 2vh;
+  background-color: #097794;
+  border-right: 2rem;
+}
+
+.title-text {
+  font-size: 0.7vw;
+  color: #7495c2;
+  margin-left: 0.5vw;
+  font-family: "PingFang-SC";
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 90%;
+  margin-top: 3vh;
+  overflow: hidden;
+  touch-action: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.item {
+  width: 100%;
+  flex-direction: column;
+  margin-bottom: 0.5vw;
+}
+
+.item-header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item-header-2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5vw;
+}
+
+.item-header-2 span {
+  font-size: 0.6vw;
+  color: #80fefa;
+  font-family: "PingFang-SC";
+}
+
+.item-header span {
+  font-size: 0.6vw;
+  color: #80fefa;
+  font-family: "PingFang-SC";
+}
+
+.device-id,
+.type {
+  width: 5vw;
+}
+
+.address {
+  font-size: 0.5vw;
+  margin-top: 0.3vw;
+  margin-bottom: 0.3vw;
+  color: #80fefa;
+  font-family: "PingFang-SC";
+}
+
+.address-2 {
+  font-size: 0.5vw;
+  color: #80fefa;
+  font-family: "PingFang-SC";
+}
+
+.details {
+  font-size: 0.5vw;
+  color: #80fefa;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "PingFang-SC";
+}
+
+.priority {
+  font-family: "PingFang-SC";
+}
+
+.priority-high {
+  color: #c03403;
+  font-size: 0.6vw;
+}
+
+.priority-medium {
+  color: #cda737;
+  font-size: 0.6vw;
+}
+
+.priority-low {
+  color: #9196b9;
+  font-size: 0.6vw;
+}
+
+.divider {
+  width: 100%;
+  height: 0.1vh;
+  background-color: #3586d28c;
+  margin-top: 1.5vh;
+}
+
+.right-top-1 {
+  grid-area: right-top-1;
+  border-width: 0.1vw;
+  border-style: solid;
+  position: relative;
+  border-color: #3c9de41a;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 1vw;
+  padding-bottom: 0.5vw;
+  background: linear-gradient(to left, #3586d2, #3586d2) left top no-repeat,
+    linear-gradient(to bottom, #3586d2, #3586d2) left top no-repeat,
+    linear-gradient(to left, #3586d2, #3586d2) right top no-repeat,
+    linear-gradient(to bottom, #3586d2, #3586d2) right top no-repeat,
+    linear-gradient(to left, #3586d2, #3586d2) left bottom no-repeat,
+    linear-gradient(to bottom, #3586d2, #3586d2) left bottom no-repeat,
+    linear-gradient(to left, #3586d2, #3586d2) right bottom no-repeat,
+    linear-gradient(to left, #3586d2, #3586d2) right bottom no-repeat;
+  background-size: 0.1vw 2vw, 2vw 0.1vw, 0.1vw 2vw, 2vw 0.1vw;
+  background-color: #040b368c;
+}
+
+.right-top-2 {
+  grid-area: right-top-2;
+  border-width: 0.1vw;
+  border-style: solid;
+  border-color: #3c9de41a;
+  color: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1vw;
+  font-size: 1.5vw;
+  background: linear-gradient(to left, #3586d2, #3586d2) left top no-repeat,
+    linear-gradient(to bottom, #3586d2, #3586d2) left top no-repeat,
+    linear-gradient(to left, #3586d2, #3586d2) right top no-repeat,
+    linear-gradient(to bottom, #3586d2, #3586d2) right top no-repeat,
+    linear-gradient(to left, #3586d2, #3586d2) left bottom no-repeat,
+    linear-gradient(to bottom, #3586d2, #3586d2) left bottom no-repeat,
+    linear-gradient(to left, #3586d2, #3586d2) right bottom no-repeat,
+    linear-gradient(to left, #3586d2, #3586d2) right bottom no-repeat;
+  background-size: 0.1vw 2vw, 2vw 0.1vw, 0.1vw 2vw, 2vw 0.1vw;
+  background-color: #040b368c;
+}
+
+.requirements-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 85%;
+  margin-top: 4vh;
+  overflow: scroll;
+  flex-wrap: wrap;
+}
+
+.requirement-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 0.5vh;
+  margin-right: 2.5vh;
+}
+
+.requirement-dot {
+  width: 0.3vw;
+  height: 0.3vh;
+  border-radius: 1vh;
+  background-color: #80fefa;
+  margin-right: 0.5vh;
+}
+
+.requirement-text {
+  font-size: 0.6vw;
+  color: #80fefa;
+}
+
+.history-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 3.5vh;
+}
+
+.history-container-2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  pointer-events: none;
+}
+
+.header-row,
+.item-row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.header-row {
+  margin-bottom: 0.4vh;
+}
+
+.item-row {
+  margin-top: 0.5vh;
+  margin-bottom: 0.5vh;
+  width: 100%;
+}
+
+.item-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.header-cell,
+.item-cell {
+  font-size: 0.6vw;
+  width: 25%;
+  color: #80fefa;
+  text-align: center;
+}
+
+.item-cell {
+  color: #80fefacc;
+}
+
+.divider-2 {
+  width: 100%;
+  height: 0.1vh;
+  background-color: #3586d28c;
+  margin-top: 0.1vh;
+}

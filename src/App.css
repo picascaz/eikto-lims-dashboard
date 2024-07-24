@@ -1,0 +1,93 @@
+.center-box-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 50vh;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "left-top-1 middle-top right-top-1"
+    "left-top-1 middle-top right-top-2";
+  grid-template-rows: 23vh 23vh;
+  grid-template-columns: 20vw 53vw 20vw;
+  width: 95vw;
+  height: 100%;
+  box-sizing: border-box;
+  overflow: scroll;
+  column-gap: 1vw;
+  /* margin-top: 2vh; */
+}
+
+.center-box-body-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 95vw;
+  height: 100%;
+}
+
+.center-box-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  font-size: 1.5vw;
+  height: 35vh;
+}
+
+.middle-bottom-2-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.left-top-1 {
+  grid-area: left-top-1;
+  border-width: 0.1vw;
+  border-style: solid;
+  position: relative;
+  border-color: #3c9de41a;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to left, #3586d2, #3586d2) left top no-repeat,
+    linear-gradient(to bottom, #3586d2, #3586d2) left top no-repeat,
+    linear-gradient(to left, #3586d2, #3586d2) right top no-repeat,
+    linear-gradient(to bottom, #3586d2, #3586d2) right top no-repeat,
+    linear-gradient(to left, #3586d2, #3586d2) left bottom no-repeat,
+    linear-gradient(to bottom, #3586d2, #3586d2) left bottom no-repeat,
+    linear-gradient(to left, #3586d2, #3586d2) right bottom no-repeat,
+    linear-gradient(to left, #3586d2, #3586d2) right bottom no-repeat;
+  background-size: 0.1vw 2vw, 2vw 0.1vw, 0.1vw 2vw, 2vw 0.1vw;
+  background-color: #040b368c;
+}
+
+.left-top-2 {
+  grid-area: left-top-2;
+  border-width: 0.1vw;
+  border-style: solid;
+  border-color: #3c9de41a;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to left, #3586d2, #3586d2) left top no-repeat,
+    linear-gradient(to bottom, #3586d2, #3586d2) left top no-repeat,
+    linear-gradient(to left, #3586d2, #3586d2) right top no-repeat,
+    linear-gradient(to bottom, #3586d2, #3586d2) right top no-repeat,
+    linear-gradient(to left, #3586d2, #3586d2) left bottom no-repeat,
+    linear-gradient(to bottom, #3586d2, #3586d2) left bottom no-repeat,
+    linear-gradient(to left, #3586d2, #3586d2) right bottom no-repeat,
+    linear-gradient(to left, #3586d2, #3586d2) right bottom no-repeat;
+  background-size: 0.1vw 2vw, 2vw 0.1vw, 0.1vw 2vw, 2vw 0.1vw;
+  background-color: #040b368c;
+}

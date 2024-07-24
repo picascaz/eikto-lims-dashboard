@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  max-height: -webkit-fill-available;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-user-select: none;
+  -moz-user-focus: none;
+  -moz-user-select: none;
+  overflow: hidden;
+  background-color: #0a0e27;
+}
+
+:root {
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-xxl: 48px;
+
+  --color-error: #ff0000;
+  --color-separator: #dddddd;
+  --color-text-dim: #888888;
+
+  --default-tab-height: calc(100vh - 60px);
+  --default-tab-height-without-header: calc(100vh - 0px);
+
+  --rt-color-white: #fff;
+  --rt-color-dark: #222;
+  --rt-color-success: #8dc572;
+  --rt-color-error: #be6464;
+  --rt-color-warning: #f0ad4e;
+  --rt-color-info: #337ab7;
+  --rt-opacity: 0.9;
+  --rt-transition-show-delay: 0.15s;
+  --rt-transition-closing-delay: 0.15s;
+}
+
+@font-face {
+  font-family: "PingFang-SC-Semibold";
+  src: local("PingFang-SC-Semibold"),
+    url(./assets/fonts/PingFang-SC-Semibold.ttf);
+}
+
+@font-face {
+  font-family: "PingFang-SC";
+  src: local("PingFang-SC"), url(./assets/fonts/PingFang-SC.ttf);
+}
+
+@font-face {
+  font-family: "Poppins-ExtraBoldItalic_zitidi";
+  src: local("Poppins-ExtraBoldItalic_zitidi"),
+    url(./assets/fonts/Poppins-ExtraBoldItalic_zitidi.com.ttf);
+}
+
+@font-face {
+  font-family: "YouSheBiaoTiHei-2";
+  src: local("YouSheBiaoTiHei-2"), url(./assets/fonts/YouSheBiaoTiHei-2.ttf);
+}
+
+@font-face {
+  font-family: "Literary-Black";
+  src: local("Literary-Black"), url(./assets/fonts/Literary-Black.ttf);
+}
+
+input,
+textarea {
+  border: 0;
+  -webkit-appearance: none;
+}
+
+img[src=""],
+img:not([src]) {
+  opacity: 0;
+}
+
+button,
+input[type="submit"],
+input[type="reset"] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  text-align: left;
+}

@@ -1,0 +1,38 @@
+.header {
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 1.5vw;
+  height: 10vh;
+  margin-bottom: 2vh;
+  border-color: #3c9de41a;
+  background: url(../assets/img/head_bg.png) no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.center-box-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  width: 95vw;
+  margin-bottom: 2vh;
+}
+
+.header-left-text {
+  font-size: 1vw;
+  font-family: "Poppins-ExtraBoldItalic_zitidi";
+}
+
+.header-body-text {
+  font-size: 2vw;
+  font-family: "YouSheBiaoTiHei-2";
+}
+
+.header-right-text {
+  font-size: 1vw;
+  font-family: "YouSheBiaoTiHei-2";
+}
